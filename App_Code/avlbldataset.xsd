@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="avlbldataset" targetNamespace="http://tempuri.org/avlbldataset.xsd" xmlns:mstns="http://tempuri.org/avlbldataset.xsd" xmlns="http://tempuri.org/avlbldataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="hydroConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hydroConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.hydroConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtavlblTableAdapter" GeneratorDataComponentClassName="dtavlblTableAdapter" Name="dtavlbl" UserDataComponentName="dtavlblTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hydroConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT   0 as srno,AVLBLDATADET.REALSTAT, AVLBLDATADET.DATATYPEID, AVLBLDATADET.PARAMETERID, AVLBLDATADET.FROM_DATE as availability, AVLBLDATADET.TO_DATE, 
+                      MISNGDATADET.YEAR, Misngdatadet.year as msngavlbl,MISNGDATADET.CANCEL, AVLBLDATADET.TYPE 
+FROM         AVLBLDATADET CROSS JOIN
+                      MISNGDATADET</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="REALSTAT" DataSetColumn="REALSTAT" />
+              <Mapping SourceColumn="DATATYPEID" DataSetColumn="DATATYPEID" />
+              <Mapping SourceColumn="PARAMETERID" DataSetColumn="PARAMETERID" />
+              <Mapping SourceColumn="TO_DATE" DataSetColumn="TO_DATE" />
+              <Mapping SourceColumn="YEAR" DataSetColumn="YEAR" />
+              <Mapping SourceColumn="CANCEL" DataSetColumn="CANCEL" />
+              <Mapping SourceColumn="TYPE" DataSetColumn="TYPE" />
+              <Mapping SourceColumn="availability" DataSetColumn="availability" />
+              <Mapping SourceColumn="msngavlbl" DataSetColumn="msngavlbl" />
+              <Mapping SourceColumn="srno" DataSetColumn="srno" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="avlbldataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="avlbldataset" msprop:Generator_DataSetName="avlbldataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtavlbl" msprop:Generator_UserTableName="dtavlbl" msprop:Generator_RowDeletedName="dtavlblRowDeleted" msprop:Generator_RowChangedName="dtavlblRowChanged" msprop:Generator_RowClassName="dtavlblRow" msprop:Generator_RowChangingName="dtavlblRowChanging" msprop:Generator_RowEvArgName="dtavlblRowChangeEvent" msprop:Generator_RowEvHandlerName="dtavlblRowChangeEventHandler" msprop:Generator_TableClassName="dtavlblDataTable" msprop:Generator_TableVarName="tabledtavlbl" msprop:Generator_RowDeletingName="dtavlblRowDeleting" msprop:Generator_TablePropName="dtavlbl">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REALSTAT" msprop:Generator_UserColumnName="REALSTAT" msprop:Generator_ColumnPropNameInRow="REALSTAT" msprop:Generator_ColumnVarNameInTable="columnREALSTAT" msprop:Generator_ColumnPropNameInTable="REALSTATColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATATYPEID" msprop:Generator_UserColumnName="DATATYPEID" msprop:Generator_ColumnPropNameInRow="DATATYPEID" msprop:Generator_ColumnVarNameInTable="columnDATATYPEID" msprop:Generator_ColumnPropNameInTable="DATATYPEIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARAMETERID" msprop:Generator_UserColumnName="PARAMETERID" msprop:Generator_ColumnPropNameInRow="PARAMETERID" msprop:Generator_ColumnVarNameInTable="columnPARAMETERID" msprop:Generator_ColumnPropNameInTable="PARAMETERIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TO_DATE" msprop:Generator_UserColumnName="TO_DATE" msprop:Generator_ColumnPropNameInRow="TO_DATE" msprop:Generator_ColumnVarNameInTable="columnTO_DATE" msprop:Generator_ColumnPropNameInTable="TO_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="YEAR" msprop:Generator_UserColumnName="YEAR" msprop:Generator_ColumnPropNameInRow="YEAR" msprop:Generator_ColumnVarNameInTable="columnYEAR" msprop:Generator_ColumnPropNameInTable="YEARColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CANCEL" msprop:Generator_UserColumnName="CANCEL" msprop:Generator_ColumnPropNameInRow="CANCEL" msprop:Generator_ColumnVarNameInTable="columnCANCEL" msprop:Generator_ColumnPropNameInTable="CANCELColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TYPE" msprop:Generator_UserColumnName="TYPE" msprop:Generator_ColumnPropNameInRow="TYPE" msprop:Generator_ColumnVarNameInTable="columnTYPE" msprop:Generator_ColumnPropNameInTable="TYPEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="availability" msprop:Generator_UserColumnName="availability" msprop:Generator_ColumnVarNameInTable="columnavailability" msprop:Generator_ColumnPropNameInRow="availability" msprop:Generator_ColumnPropNameInTable="availabilityColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="msngavlbl" msprop:Generator_UserColumnName="msngavlbl" msprop:Generator_ColumnVarNameInTable="columnmsngavlbl" msprop:Generator_ColumnPropNameInRow="msngavlbl" msprop:Generator_ColumnPropNameInTable="msngavlblColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="srno" msdata:ReadOnly="true" msprop:Generator_UserColumnName="srno" msprop:Generator_ColumnPropNameInRow="srno" msprop:Generator_ColumnVarNameInTable="columnsrno" msprop:Generator_ColumnPropNameInTable="srnoColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

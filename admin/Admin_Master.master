@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_Master.master.cs" Inherits="Design_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../css/css.css" rel="stylesheet" type="text/css" />
+   
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10" align="left" valign="top" class="show-right">&nbsp;</td>
+    <td >
+	<table  border="0" align="center" cellpadding="0" cellspacing="0" style="border-left:solid 1px #cccccc; border-right:solid 1px #cccccc;">
+  <tr>
+    <td class="header_bg">
+	<div class="logo"><a href=""></a></div>
+	</td>
+  </tr>
+  <tr>
+    <td class="nev">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+      <td width="2%">&nbsp;</td>
+                <td valign="middle" align="left" width="33%" >
+                <asp:Label ID="lblwelcome" runat="server" text="Welcome " class="comman_heading"></asp:Label><asp:Label ID="lblwhois" runat ="server" class="comman_heading"></asp:Label> <label class="comman_heading"></label><%--<asp:Label ID="lbloff" runat ="server" class="comman_heading"></asp:Label>--%>
+                </TD>
+                <td  align="center" height="35px">
+                <asp:Label ID="lbltitle" runat="server" class="comman_heading"></asp:Label></td>
+                <td  valign="middle" align="right"   
+                  width="33%" >
+                 <A href="Admin_Home.aspx" class="comman_heading" >Home</A>&nbsp;&nbsp;<label class="comman_heading">|</label>&nbsp;&nbsp;
+                  <A href="adminlogin.aspx">
+                <asp:LinkButton ID="linklogut" runat ="server" Text ="Logout" class="comman_heading"
+                     onclick="linklogut_Click" CausesValidation="False"></asp:LinkButton> 
+                     </A>
+                     </td>
+                <td width="2%">&nbsp;
+                </td>
+      
+        <%--<td width="10">&nbsp;</td>
+        <td width="250" class="comman_heading">Wecome: admin </td>
+        <td height="35" align="center" valign="middle" class="comman_heading"><strong>Beneficiary Management </strong></td>
+        <td width="250" align="right" class="comman_heading">Logout</td>
+        <td width="10">&nbsp;</td>--%>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+  <td></td>
+  </tr>
+  <%--<tr>
+  <td>
+  <asp:SiteMapDataSource ID="sitemapdatasource" runat="server"/>
+          <asp:SiteMapPath ID="sitemappath1" runat="server" PathSeparator=">>" PathDirection="RootToCurrent"></asp:SiteMapPath>
+  </td>
+  </tr>--%>
+    <tr>
+  <td>
+  </td>
+  </tr>
+  <tr>
+    <td  align="center" valign="top">
+	 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+	 
+	 
+	 
+        </asp:ContentPlaceHolder>
+	</td>
+  </tr>
+  <tr>
+  <td>
+  <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+  
+  </asp:ContentPlaceHolder>
+  </td>
+  </tr>
+        
+  <tr>
+    <td align="center" valign="middle" class="footer_bg">
+    <span class="footer_text">© 2011 All Rights Reserved. Hydrology Project (SW), Nashik </span></td>
+  </tr>
+</table>
+</td>
+    <td width="10" align="left" valign="top" class="show-left">&nbsp;</td>
+  </tr>
+</table>
+
+    </form>
+</body></html>

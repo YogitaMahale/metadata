@@ -1,0 +1,47 @@
+<script src="AC_RunActiveContent.js" language="javascript" type="text/javascript"></script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+if (AC_FL_RunContent == 0) {
+alert("This page requires AC_RunActiveContent.js");
+} else {
+AC_FL_RunContent(
+'codebase', 'https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0',
+'width', '800',
+'height', '277',
+'src', 'header',
+'quality', 'high',
+'pluginspage', 'https://www.macromedia.com/go/getflashplayer',
+'align', 'middle',
+'play', 'true',
+'loop', 'false',
+'scale', 'noscale',
+'wmode', 'transparent',
+'devicefont', 'false',
+'id', 'D27CDB6E-AE6D-11cf-96B8-444553540000',
+'bgcolor', '#eeeeee',
+'name', 'header',
+'menu', 'false',
+'allowScriptAccess','sameDomain',
+'movie', 'header',
+'salign', ''
+);
+}
+</script>
+
+
+<-------------not for http://validator.w3.org/ will support---------------------------->
+
+<noscript>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="800" height="277">
+          <param name="movie" value="header.swf">
+          <param name="quality" value="high">
+          <embed src="header.swf" quality="high" 
+pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="800" height="277">
+</embed></object>
+
+</noscript>

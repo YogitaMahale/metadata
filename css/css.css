@@ -1,0 +1,257 @@
+body{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+body, td, p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#333333;
+}
+
+.css {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_bg{
+	background:url(../images/header_bg.gif) repeat-x center top;
+	height:107px;
+	width:960px;}
+
+.footer_bg{
+	background:url(../images/footer_bg.gif) repeat-x left top;
+	height:55px;
+	border-bottom:solid 1px #cccccc;}
+
+.logo{
+	background:url(../images/adminlogo.gif) no-repeat left top;
+	height:107px;
+	width:960px;
+	float:left;
+}
+
+.logo2{
+	background:url(../images/logo2.png) no-repeat left top;
+	height:106px;
+	margin:5px 0 0 120px;
+	width:98px;
+	display:block;
+	float:left;
+}
+
+.welcome_text{
+	background:url(../images/welcometext.png) no-repeat left top;
+	height:37px;
+	margin:40px 40px 0 150px;
+	width:410px;
+	float:right;
+	font:16px Arial, Helvetica, sans-serif;
+}
+
+.nev{
+	background:url(../images/header-strip.gif) repeat-x left top;
+	height:35px;
+	width:960px;
+	display:block;
+	float:left;
+
+}
+
+.comman_heading{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.red12{
+
+}
+
+A {
+color: #4f8cc6;	
+text-decoration: none;
+}
+	
+A:HOVER {
+color: #000000; 
+text-decoration: none;
+}
+
+
+
+
+/*----------------------------------------login_box--------------------------------------*/
+
+.log_top_bg{
+	background:url(../images/log_top_bg.gif) repeat-x left top;
+	height:32px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	padding:4px 0 0 0;}
+	
+.login_text{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#01192f;
+}	
+	
+.log_top_left_cor{
+	background:url(../images/log_le_top_cor.gif) no-repeat left top;
+	width:10px;
+	height:36px;}	
+	
+.footer_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+	
+.log_top_right_cor{
+	background:url(../images/log_right_top_cor.gif) no-repeat left top;
+	width:10px;
+	height:36px;}
+	
+	
+.log_bot_bg{
+	background:url(../images/log_bot_bg.gif) repeat-x left top;
+	height:10px;}
+	
+.log_bot_left_cor{
+	background:url(../images/log_bot_le_cor.gif) no-repeat left top;
+	width:10px;
+	height:10px;}	
+	
+.log_bot_right_cor{
+	background:url(../images/log_bot_ri_cor.gif) no-repeat left top;
+	width:10px;
+	height:10px;}		
+			
+.log_left_bg{
+	background:url(../images/log_le_bg.gif) repeat-y left top;
+	width:10px;}
+	
+.log_right_bg{
+	background:url(../images/log_ri_bg.gif) repeat-y left top;
+	width:10px;}
+	
+.button1{
+	background:url(../images/log_top_bg.gif) repeat-x left -2px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	border: solid 1px #b0c9e1;
+	padding:0px 5px 0 5px;
+	cursor:pointer ;
+}	
+
+.button{
+	background:url(../images/bt-login.gif) no-repeat left top;
+	width:73px;
+	height:26px;
+	color:#000000;
+	font:12px Arial, Helvetica, sans-serif;
+	padding:0px 0 0 0;
+	text-align:center;
+	cursor:pointer;
+	border:0;
+}
+	
+.text_field2{
+background:url(../images/form_bg.jpg) repeat-x left top;
+border:solid 1px #c6dbee;
+height:20px;
+width:140px;
+float:left;
+text-align:left;
+font:normal 12px/20px Arial, Helvetica, sans-serif;
+}
+
+.label_text
+{
+   
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#01192f;
+
+	
+}
+
+.Strip Color{ background-color:#cccccc;}
+
+.button{
+	background:url(../images/bt-bg.gif) repeat-x left top; 
+	height:26px;
+	font:12px Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	padding:5px;
+	text-align:center;
+	color:#000000;
+	border: solid 1px #b0c9e1;
+}
+
+.imgcapta
+{
+font-family:Verdana;
+margin-left:2px;
+            font-size:x-large;
+            font-style:italic;
+            font-weight:bolder;
+            text-align:center;
+           
+}
+
+.blue14{
+	color:#0089c8;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding:10px 5px;
+	background-color:#f7f7f7;
+	border-bottom:solid 1px #1aaaf2;
+}
+.inner-heading{
+	color:#000000;
+	font:18px Arial, Helvetica, sans-serif;
+	padding:5px;
+	border-bottom: solid 4px #00aaff;
+	background:url(../images/drop.jpg) no-repeat left top;
+	padding: 5px 0 10px 25px;
+}
+
+.form-bg{
+	color:#003568;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding:5px 3px;
+	background:url(../images/form-bg.gif) repeat-x left top;
+}
+
+.white12{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+}
+
+.show-left{
+	background:url(../images/show-left.gif) no-repeat ;
+	width:10px;
+}
+
+.show-right{
+	background:url(../images/show-right.gif) no-repeat ;
+	width:10px;
+}
+.menu-bg{
+	background:url(../images/menu-bg.gif) no-repeat left top;
+	padding:5px;
+	height:15px;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	margin:10px 0;
+}
+
+
